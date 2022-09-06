@@ -4,8 +4,17 @@ import Image from "next/image";
 
 const PortfolioItem = (props) => {
   const { title, img, liveUrl, keyword } = props.item;
+
+  const launch = () => {
+    window.open(liveUrl, "_blank");
+  };
+
   return (
-    <div className={`${classes.portfolio__item}`}>
+    <div
+      className={`${classes.portfolio__item}`}
+      role="button"
+      onClick={launch}
+    >
       <div className="bg-transparent">
         <h6>{title}</h6>
         {keyword.map((item, index) => (

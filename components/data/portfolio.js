@@ -12,7 +12,7 @@ const portfolio = [
     title: "FlyAkeed",
     img: "/images/FA.jpeg",
     category: "Web App",
-    keyword: ["JQuery"],
+    keyword: ["jQuery"],
     liveUrl: "https://flyakeed.com",
   },
   {
@@ -20,7 +20,7 @@ const portfolio = [
     title: "Estbyani",
     img: "/images/Estbyani.jpg",
     category: "Web App",
-    keyword: ["JQuery"],
+    keyword: ["jQuery"],
     liveUrl: "https://estbyani.com/index_en",
   },
 ];

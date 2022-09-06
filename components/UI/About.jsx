@@ -19,16 +19,6 @@ const About = () => {
         <Row>
           <Col lg="6" className={`${classes.about__content}`}>
             <SectionSubtitle subtitle="Skills" />
-            {/* <h3 className="mt-4">I&apos;m here</h3>
-            <h3 className="mb-4">to help your next project</h3> */}
-            {/* <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              neque asperiores temporibus quo saepe odio, esse labore libero
-              obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-              ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
-            </p> */}
-
             <div className=" d-flex align-items-center gap-5">
               <div>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
@@ -44,6 +34,12 @@ const About = () => {
                   </span>
                   React Apollo GraphQL (4 years)
                 </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                  jQuery (4 years)
+                </h6>
               </div>
 
               <div>
@@ -51,14 +47,20 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Familliar in Typescript
+                  Familiar in Typescript
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Familliar in Flutter
+                  Familiar in Flutter
+                </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                  Familiar in NextJS
                 </h6>
               </div>
             </div>
@@ -69,40 +71,6 @@ const About = () => {
               </button>
             </div>
           </Col>
-
-          {/* <Col lg="6">
-            <div
-              className={`${classes.about__img__gallery} d-flex gap-4 justify-content-end`}
-            >
-              <div className=" d-flex flex-column mb-3">
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img01} alt="about-img" />
-                </div>
-
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img02} alt="about-img" />
-                </div>
-              </div>
-
-              <div className=" d-flex flex-column mb-3">
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img03} alt="about-img" />
-                </div>
-
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img04} alt="about-img" />
-                </div>
-              </div>
-            </div>
-          </Col> */}
         </Row>
       </Container>
     </section>
