@@ -74,6 +74,12 @@ const About = () => {
                   </span>
                   Familiar in React Clean Architecture
                 </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                  Familiar in Git Flow
+                </h6>
               </div>
             </div>
 

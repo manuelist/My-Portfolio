@@ -19,9 +19,11 @@ const Hero = () => {
               <h2 className="mt-3 mb-3">I&apos;m Wilver John Manuel</h2>
               <h5 className="mb-4">React JS Developer</h5>
               <p>
-                I love to build front-end web applications using the modern
-                technologies such as React Js, GraphQL and other modern React JS
-                frameworks such as Next JS and also modern UI frameworks.
+                I love to build front-end web applications using modern
+                technologies such as React JS and Apollo GraphQL. I also love
+                tinkering with various UI frameworks such as Material UI and
+                React Bootstrap. Currently, I am trying out NextJS, Tailwind
+                CSS, and some TypeScript.
               </p>
               <div className="mt-5">
                 <button className="primary__btn" onClick={cvHelper.downloadCV}>

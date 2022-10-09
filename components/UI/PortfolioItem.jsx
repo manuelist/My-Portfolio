@@ -3,7 +3,7 @@ import classes from "../../styles/portfolio-item.module.css";
 import Image from "next/image";
 
 const PortfolioItem = (props) => {
-  const { title, img, liveUrl, keyword } = props.item;
+  const { title, img, liveUrl, keyword, description } = props.item;
 
   const launch = () => {
     window.open(liveUrl, "_blank");
@@ -23,7 +23,9 @@ const PortfolioItem = (props) => {
           </span>
         ))}
       </div>
-
+      <div className="text-sm mt-3 text-white bg-transparent">
+        {description}
+      </div>
       <div className={`${classes.portfolio__img}`}>
         <Image alt="portfolio-img" src={img} width="700" height="700" />
       </div>
